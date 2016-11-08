@@ -63,6 +63,17 @@ local.properties
 .idea/tasks.xml
 /target
 .idea
+/news_content_manager/target
+/news_content_manager/bin
+/news_content_manager/*.iml
+/news_content_manager/lib
+
+/news-admin/target
+/news-admin/bin
+/news-admin/*.iml
+/news-admin/lib
+
+
 
 # Sensitive or high-churn files:
 .idea/dataSources/
