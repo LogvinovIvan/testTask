@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <NEWS  N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+    <NEWS N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+    <NEWS  N_MAIN_TITLE="asdasdasd" N_SHORT_TITLE="sdfdsf" N_CONTENT="asdasdd"
+          N_DATE_PUBLISHING="2016-05-23 15:05:45" N_MAIN_PHOTO="vsdvsdv"/>
+    <NEWS  N_MAIN_TITLE="Haha" N_SHORT_TITLE="ha" N_CONTENT="Hahaha" N_DATE_PUBLISHING="2016-05-23 00:00:00" N_MAIN_PHOTO = "a"/>
+</dataset>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <ATTACHED_TAGS T_ID="1" T_NAME="sport"/>
+    <ATTACHED_TAGS T_ID="2" T_NAME="culture"/>
+
+    <NEWS N_ID="1" N_MAIN_TITLE="asdasdasd" N_SHORT_TITLE="sdfdsf" N_CONTENT="asdasdd" N_DATE_PUBLISHING="2016-05-23 15:05:45" N_MAIN_PHOTO = "vsdvsdv"/>
+
+    <NEWS_HAS_TAGS NEWS_ID="1" ATTACHED_TAGS_ID="1"/>
+    <NEWS_HAS_TAGS NEWS_ID="1" ATTACHED_TAGS_ID="2"/>
+</dataset>
+

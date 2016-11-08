@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <ROLE R_ID="1" R_NAME="USER"/>
+    <ROLE R_ID="2" R_NAME="GUEST"/>
+    <ROLE R_ID="3" R_NAME="ADMIN"/>
+    <ROLE R_ID="4" R_NAME="MODERATOR"/>
+</dataset>

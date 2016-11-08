@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <NEWS N_ID="1" N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+    <NEWS N_ID="2" N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+
+    <COMMENT_NEWS C_ID="1" C_CONTENT="AAAA" C_NEWS="1" USER_ID_USER="1" C_DATE="2016-05-23 00:00:00"/>
+    <COMMENT_NEWS C_ID="2" C_CONTENT="AAAA" C_NEWS="1" USER_ID_USER="1" C_DATE="2016-05-23 00:00:00"/>
+</dataset>

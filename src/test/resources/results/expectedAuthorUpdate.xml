@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <AUTHORS   A_NAME="Mario" A_SURNAME="Puzo" A_STATUS="Y"/>
+    <AUTHORS  A_NAME="Ivan" A_SURNAME="Turgenev" A_STATUS="Y"/>
+    <AUTHORS  A_NAME="Mark" A_SURNAME="Twen" A_STATUS="Y"/>
+</dataset>

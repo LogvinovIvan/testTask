@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <ROLE R_ID="1" R_NAME="USER"/>
+    <USERS U_LOGIN="fox" U_PASSWORD="12345" U_ROLE="1"/>
+    <USERS U_LOGIN="fox2205" U_PASSWORD="12345" U_ROLE="1"/>
+    <USERS U_LOGIN="ivan" U_PASSWORD="12345" U_ROLE="1"/>
+</dataset>

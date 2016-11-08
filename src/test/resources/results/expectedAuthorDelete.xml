@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <AUTHORS A_ID="1" A_NAME="ALEX" A_SURNAME="Pushkin" A_STATUS="N"/>
+    <AUTHORS A_ID="2" A_NAME="Ivan" A_SURNAME="Turgenev" A_STATUS="Y"/>
+    <AUTHORS A_ID="3" A_NAME="Mark" A_SURNAME="Twen" A_STATUS="Y"/>
+
+    <NEWS N_ID="1" N_MAIN_TITLE="asdasdasd" N_SHORT_TITLE="sdfdsf" N_CONTENT="asdasdd" N_DATE_PUBLISHING="2016-05-23 15:05:45" N_MAIN_PHOTO = "vsdvsdv"/>
+
+    <NEWS_HAS_AUTHORS AUTHORS_ID="2" NEWS_ID="1"/>
+    <NEWS_HAS_AUTHORS AUTHORS_ID="3" NEWS_ID="1"/>
+
+
+
+</dataset>

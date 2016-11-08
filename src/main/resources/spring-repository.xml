@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="authorRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleAuthorRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+    <bean id="commentRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleCommentRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+    <bean id="newsRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleNewsRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+    <bean id="tagRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleTagRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+    <bean id="userRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleUserRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+    <bean id="roleRepository"
+          class="com.epam.lab.news.manager.repository.impl.OracleRoleRepository">
+        <property name="dataSource" ref="springDataSource"/>
+    </bean>
+
+</beans>

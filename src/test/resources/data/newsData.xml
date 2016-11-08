@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <AUTHORS A_ID="1" A_NAME="ALEX" A_SURNAME="Pushkin" A_STATUS="Y"/>
+    <AUTHORS A_ID="2" A_NAME="Ivan" A_SURNAME="Turgenev" A_STATUS="Y"/>
+    <AUTHORS A_ID="3" A_NAME="Mark" A_SURNAME="Twen" A_STATUS="Y"/>
+
+    <NEWS N_ID="1" N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+    <NEWS N_ID="2" N_MAIN_TITLE="Chicago nhl winners" N_SHORT_TITLE="Blackhawks won steanley cup"
+          N_DATE_PUBLISHING="2016-05-23" N_MAIN_PHOTO="chicago.png"/>
+    <NEWS N_ID="3" N_MAIN_TITLE="asdasdasd" N_SHORT_TITLE="sdfdsf" N_CONTENT="asdasdd"
+          N_DATE_PUBLISHING="2016-05-23 15:05:45" N_MAIN_PHOTO="vsdvsdv"/>
+
+    <NEWS_HAS_AUTHORS AUTHORS_ID="2" NEWS_ID="1"/>
+    <NEWS_HAS_AUTHORS AUTHORS_ID="3" NEWS_ID="1"/>
+
+    <ROLE R_ID="1" R_NAME="USER"/>
+
+    <USERS U_ID="1" U_LOGIN="fox" U_PASSWORD="123" U_ROLE="1"/>
+    <USERS U_ID="2" U_LOGIN="fox22" U_PASSWORD="123" U_ROLE="1"/>
+
+    <COMMENT_NEWS C_ID="1" C_CONTENT="AAAA" C_NEWS="1" USER_ID_USER="1" C_DATE="2016-05-23 00:00:00"/>
+    <COMMENT_NEWS C_ID="2" C_CONTENT="AAAA" C_NEWS="1" USER_ID_USER="1" C_DATE="2016-05-23 00:00:00"/>
+    <COMMENT_NEWS C_ID="3" C_CONTENT="AAAA" C_NEWS="1" USER_ID_USER="2" C_DATE="2016-05-23 00:00:00"/>
+    <COMMENT_NEWS C_ID="4" C_CONTENT="AAAA" C_NEWS="2" USER_ID_USER="1" C_DATE="2016-05-23 00:00:00"/>
+
+
+    <ATTACHED_TAGS T_ID="1" T_NAME="sport"/>
+    <ATTACHED_TAGS T_ID="2" T_NAME="culture"/>
+    <ATTACHED_TAGS T_ID="3" T_NAME="medicine"/>
+
+
+    <NEWS_HAS_TAGS NEWS_ID="1" ATTACHED_TAGS_ID="1"/>
+    <NEWS_HAS_TAGS NEWS_ID="1" ATTACHED_TAGS_ID="2"/>
+    <NEWS_HAS_TAGS NEWS_ID="1" ATTACHED_TAGS_ID="3"/>
+    <NEWS_HAS_TAGS NEWS_ID="2" ATTACHED_TAGS_ID="1"/>
+    <NEWS_HAS_TAGS NEWS_ID="2" ATTACHED_TAGS_ID="2"/>
+    <NEWS_HAS_TAGS NEWS_ID="2" ATTACHED_TAGS_ID="3"/>
+
+
+</dataset>
